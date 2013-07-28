@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:minHeight="300dp"
+    android:minWidth="246dp"
+    android:updatePeriodMillis="180000"
+    >
+<!--    android:resizeMode="RESIZE_BOTH"-->
+<!--
+mini: half v-size on lg mini
+    android:minHeight="130dp"
+    android:minWidth="246dp"
+mini: full v-size on lg mini
+    android:minHeight="300dp"
+    android:minWidth="246dp"
+
+-->
+    <!--android:resizeMode="horizontal|vertical" -->
+
+</appwidget-provider>

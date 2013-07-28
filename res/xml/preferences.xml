@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@string/pref_general">
+    <!--<EditTextPreference
+            android:title="@string/pref_time_offset"
+            android:defaultValue="0"
+            android:summary="@string/pref_time_offset_info"
+            android:key="time_offset" />-->
+     <CheckBoxPreference
+             android:title="@string/pref_future_time"
+             android:defaultValue="true"
+             android:summary="@string/pref_future_time_info"
+             android:key="future_time" />
+    <EditTextPreference
+            android:title="@string/pref_widget_update_time"
+            android:defaultValue="10"
+            android:summary="@string/pref_widget_update_time_info"
+            android:key="widget_update_time" />
+    <EditTextPreference
+            android:title="@string/pref_remote_app_provider"
+            android:defaultValue="https://github.com/git-j/lineup/blob/master/events"
+            android:summary="@string/pref_remote_app_provider_info"
+            android:key="remote_app_provider" />
+    <EditTextPreference
+            android:title="@string/pref_remote_app_key"
+            android:defaultValue="example.xml"
+            android:summary="@string/pref_remote_app_key"
+            android:key="remote_app_key" />
+    <EditTextPreference
+            android:title="@string/pref_widget_event_count"
+            android:defaultValue="5"
+            android:summary="@string/pref_widget_event_count_info"
+            android:key="widget_event_count" />
+    <EditTextPreference
+            android:title="@string/pref_my_event_color"
+            android:defaultValue="#FFFF00"
+            android:summary="@string/pref_my_event_color_info"
+            android:key="my_event_color" />
+  </PreferenceCategory>
+</PreferenceScreen>

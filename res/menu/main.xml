@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newItem"
+          android:icon="@drawable/newitem"
+          android:title="@string/menu_new" />
+    <item android:id="@+id/storedItems"
+          android:icon="@drawable/stored_items"
+          android:title="@string/menu_stored_items" />
+    <item android:id="@+id/showMap"
+          android:icon="@drawable/menu_map"
+          android:title="@string/menu_map" />
+    <item android:id="@+id/initializeExamples"
+          android:icon="@drawable/initialize"
+          android:title="@string/menu_initialize_examples" />
+    
+    <item android:id="@+id/importRemote"
+          android:icon="@drawable/importremote"
+          android:title="@string/menu_import_remote" />
+    <item android:id="@+id/exportRemote"
+          android:icon="@drawable/exportremote"
+          android:title="@string/menu_export_remote" />
+    <item android:id="@+id/clearImported"
+          android:icon="@drawable/clearimported"
+          android:title="@string/menu_clear_imported" />
+    <item android:id="@+id/clearDB"
+          android:icon="@drawable/cleardb"
+          android:title="@string/menu_clear_db" />
+
+    <item android:id="@+id/help"
+          android:icon="@drawable/help"
+          android:title="@string/menu_help" />
+    <item android:id="@+id/preferences"
+          android:icon="@drawable/preferences"
+          android:title="@string/menu_preferences" />
+</menu>

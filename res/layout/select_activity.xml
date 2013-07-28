@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    >
+ <TableLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:id="@+id/table"
+    android:stretchColumns="1"
+    >
+    <TableRow>
+     <ToggleButton android:id="@+id/filter_now"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textOn="@string/now"
+        android:textOff="@string/now"
+        android:textSize="20sp"
+        />
+     <ToggleButton android:id="@+id/filter_future"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textOn="@string/future"
+        android:textOff="@string/future"
+        android:textSize="20sp"
+        />
+     <ToggleButton android:id="@+id/filter_future_my"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textOn="@string/future_my"
+        android:textOff="@string/future_my"
+        android:textSize="20sp"
+        />
+     <ToggleButton android:id="@+id/filter_past"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textOn="@string/past"
+        android:textOff="@string/past"
+        android:textSize="20sp"
+        />
+     <ToggleButton android:id="@+id/new_event"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textOn="@string/menu_new"
+        android:textOff="@string/menu_new"
+        android:textSize="20sp"
+        />
+    </TableRow>
+    </TableLayout>
+    <ListView android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        android:layout_marginTop="54sp"
+        android:fastScrollEnabled="true"
+        />
+</RelativeLayout>

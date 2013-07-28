@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@+id/editItem"
+          android:icon="@drawable/edititem"
+          android:title="@string/menu_edit" />-->
+    <item android:id="@+id/newItem"
+          android:icon="@drawable/newitem"
+          android:title="@string/menu_new" />
+    <!--<item android:id="@+id/sendItem"
+          android:icon="@drawable/send"
+          android:title="@string/menu_send" />-->
+    <item android:id="@+id/deleteItem"
+          android:icon="@drawable/deleteitem"
+          android:title="@string/menu_delete" />
+</menu>

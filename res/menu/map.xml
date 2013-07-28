@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/closemap"
+       android:icon="@drawable/menu_close_map"
+       android:title="@string/menu_close_map"/>
+</menu>

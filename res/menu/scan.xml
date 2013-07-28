@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/request"
+          android:icon="@drawable/request"
+          android:title="@string/menu_request" />
+    <item android:id="@+id/scan"
+          android:icon="@drawable/scan"
+          android:title="@string/menu_scan" />
+
+    <item android:id="@+id/help"
+          android:icon="@drawable/help"
+          android:title="@string/menu_help" />
+    <item android:id="@+id/preferences"
+          android:icon="@drawable/preferences"
+          android:title="@string/menu_preferences" />
+</menu>

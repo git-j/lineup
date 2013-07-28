@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="future">Future</string>
+ <string name="future_my">My</string>
+ <string name="past">Past</string>
+ <string name="new_where">Location</string>
+ <string name="new_who">Persons</string>
+ <string name="new_when">When, on a clock</string>
+ <string name="new_when_relative">When, stated relative</string>
+ <string name="new_name">Name</string>
+ <string name="new_description">Description</string>
+ <string name="new_finish">Finish</string>
+ <string name="new_pick_date">Pick Date</string>
+ <string name="new_prev_select_location">Back</string>
+ <string name="new_next_add_info">Next</string>
+ <string name="new_prev_select_time">Back</string>
+ <string name="new_quickfinish">Finish</string>
+
+ <string name="exception_invalid_form">Invalid Form</string>
+ <string name="exception_invalid_form_info">Invalid Form, fatal</string>
+ <string name="exception_invalid_form_condition"></string>
+ <string name="exception_invalid_form_scope"></string>
+ <string name="exception_invalid_content_view">Invalid Content View</string>
+ <string name="exception_invalid_content_view_info">Invalid Activity State, maybe fatal</string>
+ <string name="exception_invalid_content_view_condition"></string>
+ <string name="exception_invalid_content_view_scope"></string>
+ <string name="exception_invalid_layout">Invalid Layout in Content</string>
+ <string name="exception_invalid_layout_info">Invalid Layout, fatal</string>
+ <string name="exception_invalid_layout_condition"></string>
+ <string name="exception_invalid_layout_scope"></string>
+ <string name="exception_invalid_scrollview">Invalid Scrollview in Content</string>
+ <string name="exception_invalid_scrollview_info">Invalid Scrollview, fatal</string>
+ <string name="exception_invalid_scrollview_condition"></string>
+ <string name="exception_invalid_scrollview_scope"></string>
+ <string name="exception_invalid_scrollview_children">Invalid Scrollview Children</string>
+ <string name="exception_invalid_scrollview_children_info">Invalid Scrollview Children, fatal</string>
+ <string name="exception_invalid_scrollview_children_condition"></string>
+ <string name="exception_invalid_scrollview_children_scope"></string>
+ <string name="exception_file_empty">File is Empty</string>
+ <string name="exception_file_empty_info">The Requested File is Empty</string>
+ <string name="exception_file_empty_condition"></string>
+ <string name="exception_file_empty_scope"></string>
+ <string name="exception_empty_result_received">No Result Received</string>
+ <string name="exception_empty_result_received_info">The Information you requested was not available. You have to enter the information manually</string>
+ <string name="exception_empty_result_received_condition"></string>
+ <string name="exception_empty_result_received_scope"></string>
+ <string name="exception_zxing_not_installed">Please install Zxing to scan barcodes</string>
+ <string name="exception_zxing_not_installed_info">To feel the full potential of this software you should install ZXING, this sofware also scans books but will not handle the bibliographic data that is associated with them, maybe - we did not ask.</string>
+ <string name="exception_zxing_not_installed_condition"></string>
+ <string name="exception_zxing_not_installed_scope"></string>
+ <string name="exception_invalid_intent_data">Unknown Intent Source</string>
+ <string name="exception_invalid_intent_data_info">Received a Invalid Intent Message</string>
+ <string name="exception_invalid_intent_data_condition"></string>
+ <string name="exception_invalid_intent_data_scope"></string>
+ <string name="exception_service_not_available">Service not Available</string>
+ <string name="exception_service_not_available_info">The Service is not available, please try again, this is beta for some years or so, check your connectivity and firewall settings. You may also have installed the Offline Version that does not require the internet permission.</string>
+ <string name="exception_service_not_available_condition"></string>
+ <string name="exception_service_not_available_scope"></string>
+ <string name="exception_no_item_selected">No Item Selected</string>
+ <string name="exception_no_item_selected_info">A Action was invoked but no item was selected.
+Create a New item or Initialize the Examples</string>
+ <string name="exception_no_item_selected_condition"></string>
+ <string name="exception_no_item_selected_scope"></string>
+ <string name="menu_map">Map</string>
+ <string name="menu_close_map">Close</string>
+ <string name="menu_new">New</string>
+ <string name="menu_new_info">Create a new Item.</string>
+ <string name="menu_new_condition"></string>
+ <string name="menu_new_scope"></string>
+ <string name="menu_main">Start</string>
+ <string name="menu_view">View</string>
+ <string name="menu_edit">Edit</string>
+ <string name="menu_edit_info">Edit the currently selected Item</string>
+ <string name="menu_edit_condition"></string>
+ <string name="menu_edit_scope"></string>
+ <string name="menu_delete">Delete</string>
+ <string name="menu_delete_info">Delete the currently selected Item</string>
+ <string name="menu_delete_condition"></string>
+ <string name="menu_delete_scope"></string>
+ <string name="menu_help">Help</string>
+ <string name="menu_help_info">Get a Help about the current Activity</string>
+ <string name="menu_help_condition"></string>
+ <string name="menu_help_scope"></string>
+ <string name="menu_preferences">Preferences</string>
+ <string name="menu_preferences_info">Setup the defaults of this Activity and the App</string>
+ <string name="menu_preferences_condition"></string>
+ <string name="menu_preferences_scope"></string>
+ <string name="menu_scan">Scan</string>
+ <string name="menu_request">Request</string>
+ <string name="menu_request_info">Request/Query the provided Information using the  Service</string>
+ <string name="menu_request_condition"></string>
+ <string name="menu_request_scope"></string>
+ <string name="menu_save">Save</string>
+ <string name="menu_save_info">Save the Items of the Form and Return.
+You also can leave the Activity to store the data.</string>
+ <string name="menu_save_condition"></string>
+ <string name="menu_save_scope"></string>
+ <string name="menu_send">Send</string>
+ <string name="menu_send_info">Send the Publication to another Software, like you Email Client or any Bibliography software that implements the Communication Protocol interface.</string>
+ <string name="menu_send_condition"></string>
+ <string name="menu_new_finish">Finish</string>
+ <string name="menu_close_help">Close Help</string>
+ <string name="menu_close_help_info">Hilfe Schliessen</string>
+ <string name="menu_close_help_condition"></string>
+ <string name="menu_close_help_scope"></string>
+ <string name="menu_initialize_examples">Start Festival</string>
+ <string name="menu_initialize_examples_info">Initialize a set of examples</string>
+ <string name="menu_initialize_examples_condition"></string>
+ <string name="menu_initialize_examples_scope"></string>
+ <string name="menu_stored_items">Events</string>
+ <string name="menu_stored_items_info">List of items that have been stored</string>
+ <string name="menu_stored_items_condition"></string>
+ <string name="menu_stored_items_scope"></string>
+ <string name="menu_export_remote">Export</string>
+ <string name="menu_import_remote">Import</string>
+ <string name="menu_clear_imported">Clear Imported</string>
+ <string name="menu_clear_db">Clear DB</string>
+ <string name="pref_general">General</string>
+ <string name="pref_general_info"></string>
+ <string name="pref_general_condition"></string>
+ <string name="pref_general_scope"></string>
+ <string name="pref_remote">Remote</string>
+ <string name="pref_remote_info"></string>
+ <string name="pref_remote_condition"></string>
+ <string name="pref_remote_scope"></string>
+ <string name="pref_always_scan">Always Scan</string>
+ <string name="pref_always_scan_info">Enable to skip the dialog that allows you to save energy</string>
+ <string name="pref_always_scan_condition"></string>
+ <string name="pref_always_scan_scope"></string>
+ <string name="pref_display_introduction">Display Introduction</string>
+ <string name="pref_display_introduction_info">Always Display Introduction</string>
+ <string name="pref_display_introduction_condition"></string>
+ <string name="pref_display_introduction_scope"></string>
+ <string name="pref_email_subject">Email Subject</string>
+ <string name="pref_email_subject_info">Subject of the Email that is set for the new Message.</string>
+ <string name="pref_email_subject_condition"></string>
+ <string name="pref_email_subject_scope"></string>
+ <string name="pref_email_receiver">Email Receiver</string>
+ <string name="pref_email_receiver_info">Default Receiver of the Email</string>
+ <string name="pref_email_receiver_condition"></string>
+ <string name="pref_email_receiver_scope"></string>
+ <string name="pref_data_provider">Data Provider</string>
+ <string name="pref_data_provider_info">Provider of the conversion Data </string>
+ <string name="pref_data_provider_condition"></string>
+ <string name="pref_data_provider_scope"></string>
+ <string name="pref_remote_app_provider">Webservice URI</string>
+ <string name="pref_remote_app_provider_info">URI of the Webservice that provides Schedules/Plans for Events (disabled)</string>
+ <string name="pref_remote_app_key">Webservice Key</string>
+ <string name="pref_remote_app_key_info">Filename of a Schedule or EventList (disabled too)</string>
+ <string name="pref_remote_app_uri_condition"></string>
+ <string name="pref_remote_app_uri_scope"></string>
+ <string name="pref_send">Send/Sync</string>
+ <string name="pref_send_info">Send this Item to another Software.</string>
+ <string name="pref_send_condition"></string>
+ <string name="pref_send_scope"></string>
+ <string name="pref_time_offset">Time Offset</string>
+ <string name="pref_time_offset_info">Offset in seconds - use to screw the clock</string>
+ <string name="pref_email_subject_default">_IDENTIFIER_</string>
+ <string name="pref_email_subject_default_info"></string>
+ <string name="pref_email_subject_default_condition"></string>
+ <string name="pref_email_subject_default_scope"></string>
+ <string name="pref_future_time">Time for Futures</string>
+ <string name="pref_future_time_info">Do display the Time for Events on the Widget and waste some Space (3\'00 instead of 17:35 / 3\'00)</string>
+ <string name="pref_widget_update_time">Time for Widget Updates</string>
+ <string name="pref_widget_update_time_info">Specify the time between updates for the Widget in Seconds. 10 seconds is useful. The smaller the value, the faster your battery will drain.</string>
+ <string name="pref_widget_event_count">Event Count</string>
+ <string name="pref_widget_event_count_info">Change Events that are visible in the Widget(++) use this for a scalled desktop widget to adjust the correct output</string>
+ <string name="pref_my_event_color">My Event Color</string>
+ <string name="pref_my_event_color_info">My Event Color (not working yet)</string>
+ <string name="pref_event_color">Event Color</string>
+ <string name="pref_event_color_info">Color for Events that are imported lineups (not working yet)</string>
+ 
+ <string name="new_next_select_time">Next / Select Time</string>
+ <string name="app_name">LineUp</string>
+ <string name="app_name_info">Tool that manages multiple Events that help planning the journey on festivals by displaying upcoming events as well as managing your personal events
+Version 1.6</string>
+ <string name="app_name_condition"></string>
+ <string name="app_name_scope"></string>
+ <string name="common_attributes">Common Attributes</string>
+ <string name="common_attributes_info">Attributes Common for all Publications</string>
+ <string name="common_attributes_condition"></string>
+ <string name="common_attributes_scope"></string>
+ <string name="scan_info">Scan a number by using the Scan menu item.</string>
+ <string name="scan_info_info">The Scan function requires you to install the ZXing Barcode reader that handles the transformation of a camera picture of a barcode to a number.</string>
+ <string name="scan_info_condition"></string>
+ <string name="scan_info_scope"></string>
+ <string name="identifier">Identifier</string>
+ <string name="identifier_info"></string>
+ <string name="identifier_condition"></string>
+ <string name="identifier_scope"></string>
+ <string name="request_progress">Requesting Webservice</string>
+ <string name="request_progress_info">Requesting Webservice _SERVICE_ with _VALUE_</string>
+ <string name="request_progress_condition"></string>
+ <string name="request_progress_scope"></string>
+ <string name="success_save">Save successful</string>
+ <string name="success_save_info"></string>
+ <string name="success_save_condition"></string>
+ <string name="success_save_scope"></string>
+ <string name="question_initialize_examples">Initialize Examples?</string>
+ <string name="question_initialize_examples_info">Would you like to have some examples to see the potential of this application?</string>
+ <string name="question_initialize_examples_condition"></string>
+ <string name="question_initialize_examples_scope"></string>
+ <string name="ok">Ok</string>
+ <string name="ok_info"></string>
+ <string name="ok_condition"></string>
+ <string name="ok_scope"></string>
+ <string name="cancel">Cancel</string>
+ <string name="cancel_info"></string>
+ <string name="cancel_condition"></string>
+ <string name="cancel_scope"></string>
+ <string name="custom_note">Your Custom Note</string>
+ <string name="custom_note_info">Your Custom Note for this Publication</string>
+ <string name="custom_note_condition"></string>
+ <string name="custom_note_scope"></string>
+ <string name="not_saved_empty_identifier">Not Saved</string>
+ <string name="not_saved_empty_identifier_info">The item was not saved, because you did not provide a Identifier</string>
+ <string name="not_saved_empty_identifier_condition"></string>
+ <string name="not_saved_empty_identifier_scope"></string>
+ <string name="save_overwrite">Overwrite Existing</string>
+ <string name="save_overwrite_info">The Identifier you provided already is exists. Do you really want to overwrite the existing publication?</string>
+ <string name="save_overwrite_condition"></string>
+ <string name="save_overwrite_scope"></string>
+ <string name="help_general">LineUp</string>
+ <string name="help_general_info">Hey!
+ Please take the time to read this short Documentation.
+ Always keep a eye on the real clock, you are betatesting this product!</string>
+ <string name="help_general_condition"></string>
+ <string name="help_general_scope"></string>
+ <string name="help_main">Widget</string>
+ <string name="help_main_info">
+ This software provides a Widget, which displays the upcoming events. To install this widget, go to a Desktop with free space, add the widget "LineUp".
+ Tap on the Widget to get the list of active and inactive events.
+ </string>
+ <string name="help_main_condition"></string>
+ <string name="help_main_scope"></string>
+ <string name="help_scan">Select</string>
+ <string name="help_scan_info">Each event can be made active and inactive. Inactive events will not be displayed on the widget.</string>
+ <string name="help_scan_condition"></string>
+ <string name="help_scan_scope"></string>
+ <string name="help_edit">Edit</string>
+ <string name="help_edit_info">Edit the events attributes. Change the location and time.</string>
+ <string name="help_edit_condition"></string>
+
+ <string name="help_software">About the Software</string>
+ <string name="help_software_info">Hey, read so far? Turn the device off
+ and take a walk! Ok before that festival everyone seems to talk about
+ starts, this software has to be on your device. you have to know what
+ it can do while you are spaced out. fetch the sources and start enabling the
+ update technology, that uses xml, java and ... find out and fork it. make some
+ art... give some feedback and love.
+ </string>
+ <string name="help_software_condition"></string>
+ <string name="help_edit_scope"></string>
+ <string name="now">Now</string>
+ <string name="welcome">LineUp =Github Theme=</string>
+ <string name="welcome_info">
+ [some art]
+ [.... !!!]
+ Have fun! Use flight mode to extend your battery life and backup all your data
+ before you leave for the festival...... .... ...
+ This application is designed to make it easier to keep track of multiple events on festivals.
+ This is a -proof of concept-. Dont blame me if you miss a appointment.
+ Read the Help and !!!add the Widget!!!review Preferences!!!
+
+ ... free software ...
+
+ You should "Start Festival" to get Events for the next hours. There is a import feature for events that provide updated schedules.
+ Clear the Database after testing (More), then Start the festival and say _NO_ to initialize
+ all official places from the Map.
+ To share this App use the QR-Code in the Help entry.
+ </string>
+ <string name="welcome_condition"></string>
+ <string name="welcome_scope"></string>
+</resources>

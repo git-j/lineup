@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/finishActivity"
+          android:icon="@drawable/new_finish"
+          android:title="@string/menu_new_finish" />
+
+    <item android:id="@+id/help"
+          android:icon="@drawable/help"
+          android:title="@string/menu_help" />
+    <item android:id="@+id/preferences"
+          android:icon="@drawable/preferences"
+          android:title="@string/menu_preferences" />
+</menu>
