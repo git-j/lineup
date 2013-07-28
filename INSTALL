@@ -1,0 +1,11 @@
+really?
+emerge-get installer android-sdk-updater-somethingwithjava
+
+make [clean sign emulator key install upload]
+
+src...*.java
+res[drawable layout values]
+
+http://developer.android.com/reference/android/package-summary.html
+
+google knows it all
